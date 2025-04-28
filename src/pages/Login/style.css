@@ -1,0 +1,108 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #01121f;
+}
+.title {
+  color: #f8f9fa;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+.logo-capys {
+  width: 160px;
+}
+.form {
+  background-color: #021a30;
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 42px;
+  padding-bottom: 42px;
+}
+.form > form {
+  display: flex;
+  flex-direction: column;
+  min-height: 250px;
+  min-width: 250px;
+  justify-content: space-between;
+}
+.text-white {
+  color: #f8f9fa;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+}
+.size-12 {
+  font-size: 12px;
+}
+.input {
+  min-height: 30px;
+  background-color: #343b41;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1.22px;
+  border-style: solid;
+  border-color: #f8f9fa;
+}
+.input::placeholder {
+  color: #f8f9fa;
+}
+.button-login {
+  background-color: #8b1d07;
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 4.06px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border: 1.22px;
+}
+
+.button-singup {
+  background-color: #868e96;
+  color: #f8f9fa;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 4.06px;
+  cursor: pointer;
+  font-size: 18px;
+  text-align: center;
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.button-login:hover {
+  background-color: #a93226;
+}
+
+.button-singup:hover {
+  background-color: #95a5a6;
+}
+.helper-text {
+  color: #868e96;
+  font-weight: 600;
+  font-size: 12px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
