@@ -1,0 +1,84 @@
+.container {
+  background-color: #01121f;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.logo-capys {
+  width: 113px;
+}
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 75px;
+  padding-left: 250px;
+  padding-right: 250px;
+}
+.exit-button {
+  padding: 10px 20px;
+  background-color: #021a30; /* azul tailwind */
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* sombra suave */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.exit-button:hover {
+  background-color: #021a40; /* azul mais escuro no hover */
+  transform: translateY(-2px); /* levanta um pouquinho */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15); /* aumenta a sombra */
+}
+
+.exit-button:active {
+  background-color: #021a40; /* ainda mais escuro no clique */
+  transform: translateY(0); /* volta ao normal */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* sombra normal */
+}
+.title-user {
+  color: #f8f9fa;
+  font-family: "Inter", sans-serif;
+  font-size: 18;
+}
+.subtitle {
+  color: #868e96;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+}
+.body-container {
+  background-color: #021a30;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  padding-left: 250px;
+  padding-right: 250px;
+}
+.fluid {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex: 1;
+}
+.infor-user {
+  color: #f8f9fa;
+  font-family: "Inter", sans-serif;
+  font-size: 18;
+  padding-top: 40px;
+  font-weight: 700;
+}
+.text {
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-size: 16;
+  padding-top: 25px;
+  font-weight: 400;
+}
