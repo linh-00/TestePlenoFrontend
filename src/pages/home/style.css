@@ -8,7 +8,7 @@
 .logo-capys {
   width: 113px;
 }
-.header-container {
+.header-container-home {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -62,11 +62,12 @@
   padding-left: 250px;
   padding-right: 250px;
 }
-.fluid {
+.fluid-home {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   flex: 1;
+  width: 100%;
 }
 .infor-user {
   color: #f8f9fa;
